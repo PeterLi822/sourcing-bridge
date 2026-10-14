@@ -1,0 +1,16 @@
+[debug] [2026-10-14T21:30:38.491Z] ----------------------------------------------------------------------
+[debug] [2026-10-14T21:30:38.495Z] Command:       /usr/bin/node /home/hatch/.npm/_npx/7750544ccf494d8b/node_modules/.bin/firebase login --no-localhost
+[debug] [2026-10-14T21:30:38.495Z] CLI Version:   15.33.0
+[debug] [2026-10-14T21:30:38.495Z] Platform:      linux
+[debug] [2026-10-14T21:30:38.496Z] Node Version:  v24.20.0
+[debug] [2026-10-14T21:30:38.496Z] Detected Agent: unknown
+[debug] [2026-10-14T21:30:38.496Z] Time:          Wed Oct 14 2026 17:30:38 GMT-0400 (Eastern Daylight Time)
+[debug] [2026-10-14T21:30:38.496Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2026-10-14T21:30:38.503Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2026-10-14T21:30:39.107Z] >>> [apiv2][query] POST https://auth.firebase.tools/attest [none]
+[debug] [2026-10-14T21:30:39.107Z] >>> [apiv2][body] POST https://auth.firebase.tools/attest {"session_id":"89641e0d-b8f2-480f-a22a-b6d476d313ee"}
+[debug] [2026-10-14T21:30:39.626Z] <<< [apiv2][status] GET https://firebase-public.firebaseio.com/cli.json 200
+[debug] [2026-10-14T21:30:39.626Z] <<< [apiv2][body] GET https://firebase-public.firebaseio.com/cli.json {"cloudBuildErrorAfter":1594252800000,"cloudBuildWarnAfter":1590019200000,"defaultNode10After":1594252800000,"minVersion":"3.0.5","node8DeploysDisabledAfter":1613390400000,"node8RuntimeDisabledAfter":1615809600000,"node8WarnAfter":1600128000000}
+[warn] ⚠  Unable to fetch the CLI MOTD and remote config. This is not a fatal error, but may indicate an issue with your network connection. 
+[debug] [2026-10-14T21:30:39.649Z] Failed to fetch MOTD Error: EPERM: operation not permitted, chown '/home/hatch/.config/configstore/firebase-tools.json.3934586890'

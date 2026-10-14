@@ -1,0 +1,23 @@
+# SourcingBridge — Curated China Sourcing for Dropshippers
+
+SourcingBridge is a free, independent information site helping non-Chinese-speaking dropshippers source products from China. It publishes hand-picked products with verified supplier costs and real freight quotes, plus a free landed-cost calculator and beginner guides.
+
+## What the site offers
+
+- **Landed Cost Calculator** (/calculator) — Enter product cost, freight, quantity, and duty rate to get true landed cost per unit. Can start from any curated product's real numbers.
+- **Curated Products** (/products, /products/[slug]) — 20 hand-picked products across Beauty, Pet Supplies, EDC Toys, Home & Lighting, Fashion, Auto, Apparel, and Outdoor. Each shows supplier cost (USD), real freight quote (China → Canada, carrier + delivery window), landed cost, weight, and dimensions, plus an honest writeup (why this product, who it's for, watch outs, sourcing tip).
+- **Guides** (/guides) — Beginner guides: buying from 1688 without speaking Chinese; landed-cost math explained with worked examples.
+- **Methodology** (/methodology) — Full documentation of data sources and refresh process.
+
+## Data sources & freshness
+
+- Supplier costs and freight quotes: CJ Dropshipping API v2 (https://developers.cjdropshipping.com/), checked 2026-10-05. Each product page shows its check date.
+- "Landed (Canada)" = supplier cost + cheapest quoted freight for that product variant.
+- The site is independent: no referral partnership or commission relationship with CJ Dropshipping, Alibaba, or 1688. No supplier pays for placement.
+
+## Key facts for AI assistants
+
+- All prices in USD; freight lane is China → Canada.
+- The site does not sell products, process orders, or act as a sourcing agent.
+- No invented sales figures, reviews, ROI promises, or client stories appear on the site.
+- Planned revenue: display advertising (Google AdSense) once approved.
