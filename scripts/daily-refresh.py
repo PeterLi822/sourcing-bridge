@@ -84,7 +84,7 @@ def main():
                     p['freight_options_count'] = len(opts)
                     p['landed_ca_usd'] = round(cost + opts[0]['price'], 2)
                     updated += 1
-            time.sleep(1)
+            time.sleep(8)
         except Exception as e:
             log(f'{slug}: {str(e)[:100]}'); failed.append(slug)
     old['generated_at'] = time.strftime('%Y-%m-%dT%H:%M:%S')
