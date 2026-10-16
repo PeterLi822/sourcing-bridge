@@ -34,14 +34,14 @@ export default function ContactPage() {
       <div className="bg-white border border-gray-200 rounded-2xl p-6 shadow-sm space-y-4">
         <div>
           <h2 className="text-lg font-semibold text-gray-800 mb-1">General questions &amp; error reports</h2>
-          <a href="mailto:contact@sourcing-bridge.web.app" className="text-amber-600 hover:underline font-medium">
-            contact@sourcing-bridge.web.app
+          <a href="mailto:info@lumipick.ca" className="text-amber-600 hover:underline font-medium">
+            info@lumipick.ca
           </a>
         </div>
         <div>
           <h2 className="text-lg font-semibold text-gray-800 mb-1">Partnership &amp; business inquiries</h2>
-          <a href="mailto:info@sourcing-bridge.web.app" className="text-amber-600 hover:underline font-medium">
-            info@sourcing-bridge.web.app
+          <a href="mailto:info@lumipick.ca" className="text-amber-600 hover:underline font-medium">
+            info@lumipick.ca
           </a>
         </div>
         <p className="text-xs text-gray-400 pt-2 border-t border-gray-100">

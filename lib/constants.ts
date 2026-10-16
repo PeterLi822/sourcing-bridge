@@ -12,4 +12,4 @@ export const DATA_SOURCE = {
   freightLane: 'China → Canada',
 };
 
-export const CONTACT_EMAIL = 'hello@sourcingbridge.example';
+export const CONTACT_EMAIL = 'info@lumipick.ca';
