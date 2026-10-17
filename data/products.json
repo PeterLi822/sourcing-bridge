@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-17T09:10:51",
+ "generated_at": "2026-10-17T09:58:51",
  "data_date": "2026-10-17",
  "source": "CJ Dropshipping API v2 — freight quotes China to Canada",
  "note": "Seed dataset for v1 launch. Daily refresh begins once CJ API automation is live.",
@@ -17,11 +17,11 @@
    "image": "https://cf.cjdropshipping.com/83a8a86f-6c39-4daf-9be2-49543359e90a.jpg",
    "freight_ca": {
     "carrier": "CJPacket JYSP Sensitive",
-    "price_usd": 4.74,
+    "price_usd": 4.84,
     "aging_days": "7-15"
    },
    "freight_options_count": 10,
-   "landed_ca_usd": 4.99,
+   "landed_ca_usd": 5.09,
    "listed_count": 10671
   },
   {
@@ -37,11 +37,11 @@
    "image": "https://cf.cjdropshipping.com/15139872/1358180070478.jpg",
    "freight_ca": {
     "carrier": "CJPacket JYSP Sensitive",
-    "price_usd": 3.92,
+    "price_usd": 3.94,
     "aging_days": "7-15"
    },
    "freight_options_count": 10,
-   "landed_ca_usd": 4.58,
+   "landed_ca_usd": 4.6,
    "listed_count": 8975
   },
   {
@@ -57,11 +57,11 @@
    "image": "https://cf.cjdropshipping.com/5f08529b-401d-43a0-a4f4-e98516b1ab7e.jpg",
    "freight_ca": {
     "carrier": "CJPacket JYSP Sensitive",
-    "price_usd": 6.26,
+    "price_usd": 6.4,
     "aging_days": "7-15"
    },
    "freight_options_count": 16,
-   "landed_ca_usd": 8.29,
+   "landed_ca_usd": 8.43,
    "listed_count": 7910
   },
   {
@@ -117,11 +117,11 @@
    "image": "https://cf.cjdropshipping.com/4f64e028-2787-42df-b098-83ee5e334172.jpg",
    "freight_ca": {
     "carrier": "CJPacket JYSP Sensitive",
-    "price_usd": 3.69,
+    "price_usd": 3.71,
     "aging_days": "7-15"
    },
    "freight_options_count": 10,
-   "landed_ca_usd": 4.43,
+   "landed_ca_usd": 4.45,
    "listed_count": 6117
   },
   {
@@ -157,11 +157,11 @@
    "image": "https://cf.cjdropshipping.com/bb7646d3-45c7-4f83-9aa5-8075ec8264c1.png",
    "freight_ca": {
     "carrier": "CJPacket JYSP Sensitive",
-    "price_usd": 3.71,
+    "price_usd": 3.72,
     "aging_days": "7-15"
    },
    "freight_options_count": 16,
-   "landed_ca_usd": 4.22,
+   "landed_ca_usd": 4.23,
    "listed_count": 3782
   },
   {
@@ -197,11 +197,11 @@
    "image": "https://cf.cjdropshipping.com/20200513/1557237117732.jpg",
    "freight_ca": {
     "carrier": "CJPacket JYSP Sensitive",
-    "price_usd": 4.01,
+    "price_usd": 4.06,
     "aging_days": "7-15"
    },
    "freight_options_count": 10,
-   "landed_ca_usd": 5.12,
+   "landed_ca_usd": 5.17,
    "listed_count": 3263
   },
   {
@@ -217,11 +217,11 @@
    "image": "https://cf.cjdropshipping.com/6dee77a4-330a-404a-840e-72826843e4c7.jpg",
    "freight_ca": {
     "carrier": "CJPacket JYSP Sensitive",
-    "price_usd": 4.16,
+    "price_usd": 4.2,
     "aging_days": "7-15"
    },
    "freight_options_count": 10,
-   "landed_ca_usd": 5.85,
+   "landed_ca_usd": 5.89,
    "listed_count": null
   },
   {
@@ -237,11 +237,11 @@
    "image": "https://cf.cjdropshipping.com/57b3f163-0288-4ab3-8905-b71312acd357.jpg",
    "freight_ca": {
     "carrier": "CJPacket JYSP Sensitive",
-    "price_usd": 4.54,
+    "price_usd": 4.61,
     "aging_days": "7-15"
    },
    "freight_options_count": 16,
-   "landed_ca_usd": 10.95,
+   "landed_ca_usd": 11.02,
    "listed_count": null
   },
   {
@@ -257,11 +257,11 @@
    "image": "https://oss-cf.cjdropshipping.com/product/2026/04/10/07/01f6a371-3adc-49a6-aeb7-717c7637d130.jpg",
    "freight_ca": {
     "carrier": "CJPacket JYSP Sensitive",
-    "price_usd": 3.98,
+    "price_usd": 4.01,
     "aging_days": "7-15"
    },
    "freight_options_count": 16,
-   "landed_ca_usd": 5.74,
+   "landed_ca_usd": 5.77,
    "listed_count": null
   },
   {
@@ -277,11 +277,11 @@
    "image": "https://oss-cf.cjdropshipping.com/product/2026/07/31/09/f50ae844-de82-4c31-803c-0f0e78d39976.jpg",
    "freight_ca": {
     "carrier": "CJPacket JYSP Sensitive",
-    "price_usd": 3.92,
+    "price_usd": 3.94,
     "aging_days": "7-15"
    },
    "freight_options_count": 16,
-   "landed_ca_usd": 5.75,
+   "landed_ca_usd": 5.77,
    "listed_count": null
   },
   {
@@ -296,12 +296,12 @@
    "material": "Metal",
    "image": "https://cf.cjdropshipping.com/c031bb8f-c7fb-4dff-b6f1-d2b8b4e0a8d5.jpg",
    "freight_ca": {
-    "carrier": "CJPacket JYSP Sensitive",
-    "price_usd": 7.52,
-    "aging_days": "7-15"
+    "carrier": "CJPacket Ordinary",
+    "price_usd": 7.57,
+    "aging_days": "4-7"
    },
    "freight_options_count": 16,
-   "landed_ca_usd": 13.56,
+   "landed_ca_usd": 13.61,
    "listed_count": null
   },
   {
@@ -317,11 +317,11 @@
    "image": "https://cf.cjdropshipping.com/2057/8278204904466.jpg",
    "freight_ca": {
     "carrier": "CJPacket JYSP Sensitive",
-    "price_usd": 6.58,
+    "price_usd": 6.75,
     "aging_days": "7-15"
    },
    "freight_options_count": 16,
-   "landed_ca_usd": 7.67,
+   "landed_ca_usd": 7.84,
    "listed_count": null
   },
   {
@@ -357,11 +357,11 @@
    "image": "https://cf.cjdropshipping.com/a9383c6e-68d7-442a-9795-a24157be37a2.jpg",
    "freight_ca": {
     "carrier": "CJPacket JYSP Sensitive",
-    "price_usd": 5.48,
+    "price_usd": 5.63,
     "aging_days": "7-15"
    },
    "freight_options_count": 16,
-   "landed_ca_usd": 8.46,
+   "landed_ca_usd": 8.61,
    "listed_count": null
   },
   {
@@ -377,11 +377,11 @@
    "image": "https://cf.cjdropshipping.com/quick/product/7758a682-2093-4938-a9b1-c26d033d6835.jpg",
    "freight_ca": {
     "carrier": "CJPacket JYSP Sensitive",
-    "price_usd": 4.23,
+    "price_usd": 4.28,
     "aging_days": "7-15"
    },
    "freight_options_count": 16,
-   "landed_ca_usd": 6.86,
+   "landed_ca_usd": 6.91,
    "listed_count": null
   },
   {
@@ -397,11 +397,11 @@
    "image": "https://cf.cjdropshipping.com/1622857578672.jpg",
    "freight_ca": {
     "carrier": "CJPacket JYSP Sensitive",
-    "price_usd": 4.07,
+    "price_usd": 4.11,
     "aging_days": "7-15"
    },
    "freight_options_count": 16,
-   "landed_ca_usd": 5.4,
+   "landed_ca_usd": 5.44,
    "listed_count": null
   }
  ]
