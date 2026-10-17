@@ -26,7 +26,10 @@ def call(path, params=None, method='GET', token=None, body=None, _retry=0):
         req.add_header('CJ-Access-Token', token)
     try:
         with urllib.request.urlopen(req, timeout=30) as r:
-            return json.load(r)
+            out = json.load(r)
+        # CJ 对共享机房 IP 限流激进：连续请求必 429；实测 60s 间隔可稳定通过
+        time.sleep(60)
+        return out
     except urllib.error.HTTPError as e:
         if e.code == 429 and _retry < 5:
             wait = 60 * (_retry + 1)
@@ -84,7 +87,6 @@ def main():
                     p['freight_options_count'] = len(opts)
                     p['landed_ca_usd'] = round(cost + opts[0]['price'], 2)
                     updated += 1
-            time.sleep(8)
         except Exception as e:
             log(f'{slug}: {str(e)[:100]}'); failed.append(slug)
     old['generated_at'] = time.strftime('%Y-%m-%dT%H:%M:%S')
