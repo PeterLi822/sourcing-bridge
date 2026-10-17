@@ -59,7 +59,7 @@ def main():
     updated, failed = 0, []
     for pid, slug in by_pid.items():
         try:
-            d = call('/product/productDetail/query', {'id': pid}, token=token)['data']
+            d = call('/product/productDetail/query', body={'id': pid}, method='POST', token=token)['data']
             best = None
             for v in d.get('stanProducts') or []:
                 try: c = float(str(v.get('sellprice')).split('--')[0].split('-')[0])
@@ -68,9 +68,9 @@ def main():
             if not best: failed.append(slug); continue
             cost, vid = best
             fr = call('/logistic/freightCalculate',
-                      {'startCountryCode': 'CN', 'endCountryCode': 'CA',
-                       'products': json.dumps([{'vid': vid, 'quantity': 1}])},
-                      token=token)
+                      body={'startCountryCode': 'CN', 'endCountryCode': 'CA',
+                            'products': [{'vid': vid, 'quantity': 1}]},
+                      method='POST', token=token)
             opts = sorted(
                 ({'name': o.get('logisticName'),
                   'price': float(str(o.get('logisticPrice')).split('-')[0]),
