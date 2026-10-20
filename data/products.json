@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-10-19T10:27:23",
- "data_date": "2026-10-19",
+ "generated_at": "2026-10-20T09:26:38",
+ "data_date": "2026-10-20",
  "source": "CJ Dropshipping API v2 — freight quotes China to Canada",
  "note": "Seed dataset for v1 launch. Daily refresh begins once CJ API automation is live.",
  "products": [
@@ -17,11 +17,11 @@
    "image": "https://cf.cjdropshipping.com/83a8a86f-6c39-4daf-9be2-49543359e90a.jpg",
    "freight_ca": {
     "carrier": "CJPacket JYSP Sensitive",
-    "price_usd": 4.84,
+    "price_usd": 4.89,
     "aging_days": "7-15"
    },
    "freight_options_count": 10,
-   "landed_ca_usd": 5.09,
+   "landed_ca_usd": 5.14,
    "listed_count": 10671
   },
   {
@@ -37,11 +37,11 @@
    "image": "https://cf.cjdropshipping.com/15139872/1358180070478.jpg",
    "freight_ca": {
     "carrier": "CJPacket JYSP Sensitive",
-    "price_usd": 3.94,
+    "price_usd": 3.96,
     "aging_days": "7-15"
    },
    "freight_options_count": 10,
-   "landed_ca_usd": 4.6,
+   "landed_ca_usd": 4.62,
    "listed_count": 8975
   },
   {
@@ -56,12 +56,12 @@
    "material": "Plastic",
    "image": "https://cf.cjdropshipping.com/5f08529b-401d-43a0-a4f4-e98516b1ab7e.jpg",
    "freight_ca": {
-    "carrier": "CJPacket JYSP Sensitive",
-    "price_usd": 6.4,
-    "aging_days": "7-15"
+    "carrier": "CJPacket Ordinary",
+    "price_usd": 6.59,
+    "aging_days": "4-7"
    },
    "freight_options_count": 16,
-   "landed_ca_usd": 8.43,
+   "landed_ca_usd": 8.62,
    "listed_count": 7910
   },
   {
