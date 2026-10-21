@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-10-20T09:26:38",
- "data_date": "2026-10-20",
+ "generated_at": "2026-10-21T09:20:45",
+ "data_date": "2026-10-21",
  "source": "CJ Dropshipping API v2 — freight quotes China to Canada",
  "note": "Seed dataset for v1 launch. Daily refresh begins once CJ API automation is live.",
  "products": [
@@ -176,12 +176,12 @@
    "material": "Cloth",
    "image": "https://cf.cjdropshipping.com/20190606/13692091898533.png",
    "freight_ca": {
-    "carrier": "CJPacket Eub",
-    "price_usd": 13.8,
-    "aging_days": "4-8"
+    "carrier": "CJPacket Ordinary",
+    "price_usd": 9.54,
+    "aging_days": "4-7"
    },
    "freight_options_count": 16,
-   "landed_ca_usd": 16.53,
+   "landed_ca_usd": 12.27,
    "listed_count": 3566
   },
   {
