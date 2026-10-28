@@ -25,6 +25,9 @@ export default function Header() {
           <Link href="/methodology" className="hidden lg:block px-3 py-1.5 rounded-md text-gray-600 hover:text-emerald-700 hover:bg-emerald-50 transition-colors">
             Methodology
           </Link>
+          <Link href="/services/quote-report" className="hidden md:block px-3 py-1.5 rounded-md text-gray-600 hover:text-emerald-700 hover:bg-emerald-50 transition-colors">
+            Quote Report
+          </Link>
           <Link href="/about" className="hidden md:block px-3 py-1.5 rounded-md text-gray-600 hover:text-emerald-700 hover:bg-emerald-50 transition-colors">
             About
           </Link>
