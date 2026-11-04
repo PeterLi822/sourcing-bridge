@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-03T05:21:15",
- "data_date": "2026-11-03",
+ "generated_at": "2026-11-04T06:44:32",
+ "data_date": "2026-11-04",
  "source": "CJ Dropshipping API v2 — freight quotes China to Canada",
  "note": "Seed dataset for v1 launch. Daily refresh begins once CJ API automation is live.",
  "products": [
@@ -77,11 +77,11 @@
    "image": "https://cf.cjdropshipping.com/20180816/1203153780557.png",
    "freight_ca": {
     "carrier": "CJPacket Sensitive Pro+",
-    "price_usd": 6.02,
+    "price_usd": 6.04,
     "aging_days": "6-11"
    },
    "freight_options_count": 5,
-   "landed_ca_usd": 6.8,
+   "landed_ca_usd": 6.82,
    "listed_count": 7893
   },
   {
@@ -97,11 +97,11 @@
    "image": "https://cf.cjdropshipping.com/2ba4d6fc-e99b-4c0e-ace1-4e202ac5164e.jpg",
    "freight_ca": {
     "carrier": "CJPacket Sensitive Pro+",
-    "price_usd": 6.67,
+    "price_usd": 6.73,
     "aging_days": "6-11"
    },
    "freight_options_count": 5,
-   "landed_ca_usd": 11.7,
+   "landed_ca_usd": 11.76,
    "listed_count": 6274
   },
   {
